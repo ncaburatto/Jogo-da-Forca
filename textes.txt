@@ -1,0 +1,13 @@
+#Casos Válidos
+1. Digitar 'P' para a palavra "PYTHON" (Letra correta).
+2. Digitar 'Z' para a palavra "PYTHON" (Letra incorreta, reduz tentativa).
+3. Digitar 'a' minúsculo (O sistema deve converter para 'A' e aceitar).
+4. Completar todas as letras (Vitória).
+5. Errar 6 vezes (Derrota/Enforcado).
+
+# Casos Inválidos (Tratados com Except):
+1. Digitar um número (Ex: '1').
+2. Digitar um símbolo (Ex: '@').
+3. Deixar em branco (Apenas apertar Enter).
+4. Digitar uma palavra inteira (Ex: 'PYTHON').
+5. Digitar espaços em branco antes da letra.
